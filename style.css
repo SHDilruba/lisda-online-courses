@@ -44,10 +44,10 @@ body{
     .carousel-caption h1{font-size: 4.5rem;}
     .carousel-caption p{font-size: 1.7rem;}
     .course-heading{
-      margin-left: 28%;
-      margin-right:28%;}
-    .courses{
-      margin-top: 100px;}
+      margin-left: 30%;
+      margin-right:30%;}
+    /* .courses{
+      margin-top: 100px;} */
     .col img{
       width: 30%;}  
     .course-heading h2{
