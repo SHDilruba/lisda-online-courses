@@ -2,7 +2,7 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
- /* ########## Background section ######### */
+ /* ########## Background style ######### */
  .carousel-item{
   height: 100%;
   min-height: 100px;
@@ -20,15 +20,26 @@ body{
   background: #000;
   opacity: 0.6;
  }
-   /* ########## Responsive section ######### */
-
+   /* ########## style for Responsive ######### */
    @media (max-width: 544px) {
     .carousel-caption h1{font-size:1.3rem;}
     .carousel-caption p{font-size: 0.5rem;}
     .carousel-caption{top:1rem;}
+    .img-fluid{
+      width: 100%;
+    }
+    .course-heading h2{
+      font-size: 1.4rem;
+    }
   }
    @media (min-width: 544px) {  
     .carousel-caption h1{font-size:2.2rem;}
+    .col img{
+      width: 100%;
+    }
+    .col img{
+      width: 30%;
+    } 
   } 
   @media (min-width: 768px) {  
     .carousel-caption h1{font-size: 3rem;}  
@@ -36,4 +47,17 @@ body{
    @media (min-width: 992px){ 
     .carousel-caption h1{font-size: 4.5rem;}
     .carousel-caption p{font-size: 1.7rem;}
+    .course-heading{
+      margin-left: 28%;
+      margin-right:28%;
+    }
+    .courses{
+      margin-top: 100px;
+    }
+    .col img{
+      width: 30%;
+    }  
+    .course-heading h2{
+      font-size: 2.5rem;
+    }
   }
