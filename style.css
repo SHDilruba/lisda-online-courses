@@ -2,3 +2,38 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
+ /* ########## Background section ######### */
+ .carousel-item{
+  height: 100%;
+  min-height: 100px;
+   background-repeat: no-repeat; 
+  background-size: cover;
+ }
+ .carousel-item::before{
+  content:"";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.6;
+ }
+   /* ########## Responsive section ######### */
+
+   @media (max-width: 544px) {
+    .carousel-caption h1{font-size:1.3rem;}
+    .carousel-caption p{font-size: 0.5rem;}
+    .carousel-caption{top:1rem;}
+  }
+   @media (min-width: 544px) {  
+    .carousel-caption h1{font-size:2.2rem;}
+  } 
+  @media (min-width: 768px) {  
+    .carousel-caption h1{font-size: 3rem;}  
+  }
+   @media (min-width: 992px){ 
+    .carousel-caption h1{font-size: 4.5rem;}
+    .carousel-caption p{font-size: 1.7rem;}
+  }
